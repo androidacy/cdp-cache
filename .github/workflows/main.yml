@@ -38,7 +38,7 @@ jobs:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTED_ID }}
         with:
           debug: true
-          prefix: github.com/sillygod/cdp-cache # this is important
+          prefix: github.com/androidacy/cdp-cache # this is important
           coverageCommand: go test -coverprofile=c.out ./...
           coverageLocations: ${{ github.workspace }}/c.out:gocov
 
@@ -58,7 +58,7 @@ jobs:
         with:
           dockerfile: build/ci.dockerfile
           registry: docker.pkg.github.com
-          repository: sillygod/cdp-cache/caddy
+          repository: androidacy/cdp-cache/caddy
           username: sillygod
           password: ${{ secrets.GITHUB_TOKEN }}
           tags: latest

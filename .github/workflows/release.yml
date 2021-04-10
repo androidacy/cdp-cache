@@ -50,7 +50,7 @@ jobs:
         with:
           dockerfile: build/ci.dockerfile
           registry: docker.pkg.github.com
-          repository: sillygod/cdp-cache/caddy
+          repository: androidacy/cdp-cache/caddy
           username: sillygod
           password: ${{ secrets.GITHUB_TOKEN }}
           tag_with_ref: true

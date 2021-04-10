@@ -17,8 +17,8 @@ import (
 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/pquerna/cachecontrol/cacheobject"
-	"github.com/sillygod/cdp-cache/backends"
-	"github.com/sillygod/cdp-cache/extends/distributed"
+	"github.com/androidacy/cdp-cache/backends"
+	"github.com/androidacy/cdp-cache/extends/distributed"
 )
 
 // Module lifecycle

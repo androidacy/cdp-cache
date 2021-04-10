@@ -30,8 +30,8 @@ import (
 	caddycmd "github.com/caddyserver/caddy/v2/cmd"
 
 	// plug in Caddy modules here
-	_ "github.com/sillygod/cdp-cache"
-	_ "github.com/sillygod/cdp-cache/extends/influxlog"
+	_ "github.com/androidacy/cdp-cache"
+	_ "github.com/androidacy/cdp-cache/extends/influxlog"
 
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
 )
